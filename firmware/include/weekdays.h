@@ -1,0 +1,9 @@
+#pragma once
+#define ALL_DAYS 0b1111111
+#define MONDAY   0b0000001
+#define TUESDAY  0b0000010
+#define WENSDAY  0b0000100
+#define THURSDAY 0b0001000
+#define FRIDAY   0b0010000
+#define SATURDAY 0b0100000
+#define SUNDAY   0b1000000

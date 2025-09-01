@@ -1,0 +1,22 @@
+#pragma once
+
+#define ENTRY_BACK 1
+#define ENTRY_SCREEN 128
+#define ENTRY_TOGGLE 64
+#define ENTRY_TOGGLE_INTERNAL 32
+
+#define MAIN_MENU_ENTRIES { "Powrot", "Program", "Siec", "Ustawienia", "ALARM" }
+#define MAIN_MENU_ENTRIES_TYPES { 1, ENTRY_SCREEN + 2, ENTRY_SCREEN + 3, ENTRY_SCREEN + 4, ENTRY_TOGGLE_INTERNAL + 0}
+#define MAIN_MENU_ENTRIES_SIZE 5
+
+#define PROGRAM_MENU_ENTRIES { "Powrot", "Wyl. dzwonki", "Wybierz plan", "Czas dzwonka", "Wymus dzwonek" }
+#define PROGRAM_MENU_ENTRIES_TYPES { 1, ENTRY_TOGGLE + 0, ENTRY_TOGGLE_INTERNAL + 1, ENTRY_TOGGLE_INTERNAL + 2, ENTRY_TOGGLE_INTERNAL + 3 }
+#define PROGRAM_MENU_ENTRIES_SIZE 5
+
+#define NETWORK_MENU_ENTRIES { "Powrot", "Adres IP" }
+#define NETWORK_MENU_ENTRIES_TYPES { 1, ENTRY_TOGGLE_INTERNAL + 0 }
+#define NETWORK_MENU_ENTRIES_SIZE 2
+
+#define SYSTEM_MENU_ENTRIES { "Powrot", String("SN: ") + String(SERIAL_NUMBER), "Wygasz. LCD", "Reset hasla" }
+#define SYSTEM_MENU_ENTRIES_TYPES { 1, 0, ENTRY_TOGGLE + 0, ENTRY_TOGGLE_INTERNAL + 1}
+#define SYSTEM_MENU_ENTRIES_SIZE 4

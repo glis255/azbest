@@ -1,0 +1,19 @@
+{
+  "name": "site-transpiller",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.10.3"
+  },
+  "dependencies": {
+    "minify": "^12.0.0"
+  }
+}

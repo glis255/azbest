@@ -1,0 +1,8 @@
+#define MENU_SERIAL_UP 'i'
+#define MENU_SERIAL_DOWN 'k'
+#define MENU_SERIAL_ENTER 'l'
+#define MENU_SERIAL_BACK 'j'
+#define MENU_SERIAL_WAKE 'o'
+#define MENU_SERIAL_DEBUG 'd'
+#define MENU_SERIAL_TRIGGER 't'
+#define MENU_SERIAL_RELOAD_ALARMS 'r'
